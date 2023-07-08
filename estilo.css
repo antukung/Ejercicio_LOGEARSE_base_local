@@ -1,0 +1,5 @@
+#contenedor {
+    background-color: blue;
+    display: grid;
+    place-content: center;
+}
