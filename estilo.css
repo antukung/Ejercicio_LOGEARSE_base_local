@@ -3,3 +3,11 @@
     display: grid;
     place-content: center;
 }
+
+body {
+    background-color: aquamarine;
+}
+
+#boton {
+    background-color: gray;
+}
