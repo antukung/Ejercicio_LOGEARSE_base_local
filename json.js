@@ -12,10 +12,9 @@ function verificar() {
  /**VERIFICA QUE LOS DATOS GUARDADOS SEAN VALIDOS EN REALIDAD VERIFICA SOLO EL USUARIO */
 function verifica2() {
   if (localStorage.getItem(inputNombre.value, JSON.stringify(inputContrasenia.value))) {
-    cuerpoDePagina.innerHTML=`<h1>FACEBOOK</h1>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgQWZzDfwM1ck0SnpSx0C4AZylsfxCKMkKxQ&usqp=CAU" alt="" srcset="">
-    <h4>Carlos Miguel Ibaldi</h4>
-    <p>Somos unos jovenes con varias ideas de publicidad tenemos ideas que podrian revolucionar el mercado de todas la formas </p>`;
+    // Abrir otro archivo HTML en la misma pestaña
+    window.location.href = 'index.redsoial.html';
+
   } else {
     inputParrafo1.innerHTML=`*SU USUARIO NO REGISTRADOS`;
   }
