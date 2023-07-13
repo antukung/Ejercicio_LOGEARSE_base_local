@@ -1,4 +1,7 @@
-
+#formulario {
+    display: grid;
+    place-content: center;
+}
 
 #titulo {
     display: grid;

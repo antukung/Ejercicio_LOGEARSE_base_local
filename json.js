@@ -4,9 +4,12 @@ const inputContrasenia= document.querySelector("#contrasenia");
 const inputParrafo1=document.querySelector("#parafo-bien-mal");
 const cuerpoDePagina=document.querySelector("body")
 
+let contraseniaConfirmar= inputConfirmarContrasenia.value;
+
 function verificar() {
+    window.location.href ='index.formulario.html';
     /**Guarda datos y contrañias ingresados en LOCALSTORAGUE */
-    localStorage.setItem( inputNombre.value , JSON.stringify(inputContrasenia.value));
+   
     
 }
  /**VERIFICA QUE LOS DATOS GUARDADOS SEAN VALIDOS EN REALIDAD VERIFICA SOLO EL USUARIO */
@@ -19,6 +22,7 @@ function verifica2() {
     inputParrafo1.innerHTML=`*SU USUARIO NO REGISTRADOS`;
   }
 }
+
 /*
 console.log(JSON.parse(localStorage.getItem("numeros")));
 
